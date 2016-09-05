@@ -21,6 +21,7 @@ var CommentBox = React.createClass({
     });
   },
   render: function() {
+    // start with adding onCommentSubmit to the comment form. 
     return (
       <div className="commentBox">
         <h1>Comments</h1>
